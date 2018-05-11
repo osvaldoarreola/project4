@@ -1,0 +1,48 @@
+body {
+	background-color: #99ffff;
+	cursor: crosshair;
+}
+h1 {
+	
+	text-align: center;
+	font-family: Lucida Sans Unicode;
+	text-shadow: 2px 2px;
+}
+p {
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+	color: blue;
+}
+u1 {
+	margin-left: 800px;
+	margin-right: 800px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	border: 3px transparent solid;
+	grid-height: 100%;
+	grid-width: 100%;
+}
+.a {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.b {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.box {
+	background: transparent;
+	border-radius: 20px;
+	border: 15px black solid;
+}
+input {
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	cursor: crosshair;
+	color: #006600;
+	background-color: #666fff66;
+}
