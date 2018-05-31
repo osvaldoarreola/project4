@@ -30,6 +30,26 @@ u1 {
 	grid-column-end: 1;
 }
 .b {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.c {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.d {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.e {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.f {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.g {
 	grid-column-start: 2;
 	grid-column-end: 2;
 }
@@ -39,8 +59,8 @@ u1 {
 	border: 15px black solid;
 }
 input {
-	width: 80px;
-	height: 40px;
+	width: 105px;
+	height: 50px;
 	font-size: 20px;
 	cursor: crosshair;
 	color: #006600;
